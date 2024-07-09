@@ -1,0 +1,41 @@
+.logo {
+    height: 3rem;
+}
+
+.nav {
+    padding: 0 var(--side-padding);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--primary);
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-list-item {
+    color: var(--contrast);
+}
+
+.nav-list-item-link {
+    color: var(--contrast);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+.nav-list-item-link:hover {
+    color: var(--accent);
+    text-decoration: underline;
+    transform: var(--transform);
+}
+
+.main {
+    padding: 4.25rem var(--side-padding);
+}
