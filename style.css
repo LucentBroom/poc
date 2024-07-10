@@ -39,3 +39,19 @@
 .main {
     padding: 4.25rem var(--side-padding);
 }
+
+.products-img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.products-article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
